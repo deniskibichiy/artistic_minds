@@ -1,0 +1,175 @@
+/* Universal*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+
+.header{
+    background-color: #ffff;
+    height:50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+
+/* Nav*/
+
+.nav{
+width: 100vw;
+margin: 0 50px;
+}
+
+
+.nav > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav ul a{
+    text-decoration: none;
+}
+
+
+/*Style the home page*/
+/*Hero section*/
+
+.hero {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: row-reverse;
+}
+
+
+.hero img{
+    height: auto;
+    width: 50vw;
+}
+
+
+.hero article{
+    width: 50vw;
+}
+.article{
+    display: flex;
+    background-color: #F2DCDB;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+
+/*Home Paragraph*/
+.home_para{
+    text-align: center;
+    margin: 30px 50px;
+}
+/* Display Section*/
+.art_display{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
+
+.displaycard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    background-color: #F2DCDB;
+}
+
+.displaycard img{
+    height: 250px;
+    width: auto;
+    padding: 10px;
+}
+
+/* The paragraph inviting visitors to sign up for newsletter*/
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    gap: 30px;
+}
+/*Buttons*/
+button{
+    width: 100px;
+    background-color: rgb(10, 6, 6);
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* Typography*/
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight:700;
+}
+
+a:hover{
+    background-color: #F2DCDB;
+    border-radius: 30px;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+}
+
+
+/* Contact Form*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactsection{
+    margin-top: 50px;
+    background-color: #F2DCDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px;
+}
+
+input[type=text], textarea {
+    width: 100%; 
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 2px; 
+    margin-bottom: 10px; 
+  }
